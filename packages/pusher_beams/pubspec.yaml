@@ -36,10 +36,10 @@ flutter:
     platforms:
       android:
         default_package: pusher_beams_android
-      ios:
-        default_package: pusher_beams_ios
-      web:
-        default_package: pusher_beams_web
+      # ios:
+      #   default_package: pusher_beams_ios
+      # web:
+      #   default_package: pusher_beams_web
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
@@ -71,6 +71,7 @@ flutter:
   #
   # For details regarding fonts in packages, see
   # https://flutter.dev/custom-fonts/#from-packages
+
 
 
 
