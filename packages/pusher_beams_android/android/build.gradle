@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.pusher.pusher_beams'
+    
     compileSdkVersion 31
 
     compileOptions {
@@ -52,3 +54,4 @@ dependencies {
     implementation("com.pusher:push-notifications-android:1.10.0")
     testImplementation 'junit:junit:4.12'
 }
+
